@@ -18,7 +18,8 @@ dependencies = []
 Homepage = "https://github.com/toupcam/toupcam-sdk"
 Repository = "https://github.com/toupcam/toupcam-sdk"
 
+[tool.setuptools]
+packages = ["toupcam"]
+
 [tool.setuptools.package-data]
-toupcam = [
-    "lib/**/*",
-]
+toupcam = ["lib/**/*"]
